@@ -1,7 +1,15 @@
 (ns first-lein-proj.core
   (:gen-class))
 
-(defn -main
-  "I don't do a whole lot ... yet."
+ (defn -main
   [& args]
-  (println "Hello, World!"))
+  (print "I don't do a whole lot ... yet.")
+  (print "I'm a little tea pot"))
+
+(defn my-first-function [] (
+	(if true 
+		(print "This is true from the firstFunction") 
+		(print "This is false from the firstFunction"))
+))
+
+; (my-first-function)
